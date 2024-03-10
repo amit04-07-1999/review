@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+body {
+  background-color: #e2e2df;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  max-width: fit-content;
+  margin-top: -5px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: #ffffff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.yellow {
+  color: #f59e0b;
+}
+.gray {
+  color: #4b5563;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.green {
+  background-color: #48bb78;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.like {
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.badge {
+  margin-left: 5px;
+  height: 30px;
+  border-radius: 0.25rem;
+  background-color: #070707;
+  color: #f6f8fa;
+  border: none;
+  cursor: pointer;
+}
+.badge:hover {
+  background-color: rgb(136, 132, 132);
+  color: black;
+}
+.delete {
+  margin-top: 25px;
+  margin-left: 40px;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(204, 57, 57);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.delete:hover{
+  background-color: red;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.submit {
+  margin-top: 25px;
+  margin-left: 40px;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #c5c2c2;
+}
+.submit:hover{
+  background-color: rgb(187, 225, 230);
 }
